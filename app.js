@@ -9,6 +9,6 @@
 const buttonPress = document.getElementById('button');
 const input1 = document.getElementById('number1');
 
-addEventListener('click', () => {
+buttonPress.addEventListener('click', () => {
 
 });
