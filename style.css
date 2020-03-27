@@ -1,3 +1,7 @@
-.mad-lib {
+.input-container{
+    display: flex;
+}
+
+.mad-lib-container {
     display: none;
 }
