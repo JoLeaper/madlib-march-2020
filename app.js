@@ -8,8 +8,17 @@
 
 const buttonPress = document.getElementById('button');
 
+//inputs
+
+
+
+const madLib = document.getElementById('mad-lib-container')
+
 buttonPress.addEventListener('click', () => {
     const input1 = document.getElementById('number1');
-    const input = input1.value; 
-    console.log(input);
+
+    const span1 = document.getElementById('span1');
+    span1.textContent = input1.value;
+    console.log(madLib.textContent);
+
 });
