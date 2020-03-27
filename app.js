@@ -7,8 +7,9 @@
 // 7. Create function that hides input container with mab libs.
 
 const buttonPress = document.getElementById('button');
-const input1 = document.getElementById('number1');
 
 buttonPress.addEventListener('click', () => {
-
+    const input1 = document.getElementById('number1');
+    const input = input1.value; 
+    console.log(input);
 });
