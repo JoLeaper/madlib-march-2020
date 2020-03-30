@@ -4,14 +4,17 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    text-shadow: 1px 1px;
+    font-size: 15px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
 }
 
 .input-container{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: grey;
+   /* background-color: grey; */
 }
 
 /* input {
@@ -28,7 +31,6 @@ button {
     display: none;
     flex-direction: column;
     text-align: center;
-    background-color: grey;
 }
 
 p {
