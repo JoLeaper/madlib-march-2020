@@ -4,7 +4,8 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: bold;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     color: white;
