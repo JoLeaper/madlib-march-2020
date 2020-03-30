@@ -24,7 +24,6 @@ const input12 = document.getElementById('verb3');
 const input13 = document.getElementById('adjective3');
 const input14 = document.getElementById('noun6');
 const input15 = document.getElementById('verb4');
-const input16 = document.getElementById('verb5');
 //
 
 //spans
@@ -44,6 +43,8 @@ const span13 = document.getElementById('span13');
 const span14 = document.getElementById('span14');
 const span15 = document.getElementById('span15');
 const span16 = document.getElementById('span16');
+const span17 = document.getElementById('span17');
+const span18 = document.getElementById('span18');
 //
 // mad lib container
 const madLib = document.getElementById('mad-libs');
@@ -69,7 +70,9 @@ buttonPress.addEventListener('click', () => {
     span13.textContent = input13.value;
     span14.textContent = input14.value;
     span15.textContent = input15.value;
-    span16.textContent = input16.value;
+    span16.textContent = input4.value;
+    span17.textContent = input4.value;
+    span18.textContent = input4.value;
     inputContainer.style.display = 'none';
     madLib.style.display = 'flex';
     console.log(madLib.textContent);

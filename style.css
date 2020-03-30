@@ -1,12 +1,22 @@
+body{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f2fca156-9557-472e-b51d-9c4b7acddb4e/d9o3zwf-cbd7151b-5a25-4298-b79e-702eb403438e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YyZmNhMTU2LTk1NTctNDcyZS1iNTFkLTljNGI3YWNkZGI0ZVwvZDlvM3p3Zi1jYmQ3MTUxYi01YTI1LTQyOTgtYjc5ZS03MDJlYjQwMzQzOGUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qMih_FlpRcyLjIOtOn_D2m5OEnSh3Jx4YwC5jBeQjyQ');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-shadow: 1px 1px;
+}
+
 .input-container{
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: grey;
 }
 
-input {
+/* input {
     margin: 0px;
-}
+} */
 
 button {
     margin: auto;
@@ -16,4 +26,11 @@ button {
 
 .mad-lib-container {
     display: none;
+    flex-direction: column;
+    text-align: center;
+    background-color: grey;
+}
+
+p {
+ margin: 0;
 }
